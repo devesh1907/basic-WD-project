@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*STYLE NAVIGATION BAR*/
+.navb{
+	display: flex;
+	z-index: 9;
+	padding: 20px;
+	margin-top: 0.5%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	box-shadow: 0px 2px 5px 0px darkgrey;
+}
+.navb-stk{
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.logo-name>img{
+	width: 35%;
+	float: left;
+}
+.logo-name .logo-slg{
+	float: left;
+	margin-top: 15px;
+}
+.logo-slg>h3{
+	font-family: 'Zen Tokyo Zoo', cursive;
+	color: orange;
+	font-size: 40px;
+	font-weight: 700;
+}
+.logo-slg>h4{
+	font-family: 'Cabin', sans-serif;
+	color: skyblue;
+	font-size: 25px;
+	font-weight: 500;
+}
+.navb-content{
+	width: 60%;
+	margin-top: 15px;
+	float: right;
+	text-align: right;
+	padding: 15px;
+}
+.navb-content>a{
+	color: black;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Cabin', sans-serif;
+	text-align: right;
+}
+.navb-content>a:hover{
+	text-decoration: none;
+	color: orange;
+}
+.navb-content>a:visit{
+	color: black;
+}
+.crs-slide  img{
+	height: 500px;
+}
+.product{
+	display: flex;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	width: 99%;
+}
+.product > .item{
+	width: 23.5%;
+	height: auto;
+	margin: 1.25%;
+	border: 2px solid grey;
+}
+.product > .item > .item-img > img{
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	padding: 10px;
+}
+.product > .item > .item-content{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.product > .item > .item-content > h3{
+	font-size: 22px;
+	font-weight: 900;
+	font-family: 'Merriweather', serif;
+	padding: 5px;
+}
+.product > .item > .item-content > p{
+	font-size: 18px;
+	font-weight: 800;
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.product > .item > .item-content > .sale-btn{
+	font-weight: 900;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 15px;
+}
+.product > .item > .item-content > .sale-btn > a{
+	text-decoration: none;
+}
+/*STYLE IMAGE WITH DATA*/
